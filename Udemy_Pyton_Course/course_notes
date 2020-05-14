@@ -34,7 +34,6 @@ chr() отображает символ по юникод номеру
 .seek(0) перевод строки на начало файла после .read()
 .close() закрыть файл после read()
 .closed проверка закрыт ли файл
-.isdigit() состоит из цифр
 
 функции list
 <var> = ['<string>' or value]
@@ -83,17 +82,6 @@ p1 = Player('Carlsen', 1990, 22)
 print(p1.name)
 print(p1.year)
 print(p1.rating)
-
-работа с циклами for
-range() функция задает список чисел от и до, не учитывает последнюю цифру range(1,6) = 1,2,3,4,5
-enumerate(<var>, 1) функция выводит индекс элемента, через "," можно задать какой индекс выводить для первого элемента, по умолчанию с 0
-for indx, value in enumerate(<var>): в цикле можно задать в переменные чтобы обращаться к элементу по его индексу 
-for (a, b) in <var> подобная запись называется tuple unpacking, чтобы обращаться в цикле к tuple в списке
-tuple unpacking без цикла
-a = ('val', 'val', digit)
-(a, b, c) = a
-
-
 
 if not <var> - (if not True) if x is false, then True, else False/
 	x = ""
